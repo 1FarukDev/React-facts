@@ -1,0 +1,57 @@
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Quicksand:wght@600;700&display=swap'); 
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif, 'Inter';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/*Header*/
+h4{
+  color: rgb(0, 177, 247);
+  font-family: 'Inter', sans-serif;
+  padding-left: .5rem;
+}
+*{
+  box-sizing: border-box;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  height: 15vh;
+}
+ul > li{
+  list-style-type: none;
+  color: aliceblue;
+  padding-right: .5rem;
+ padding-top: 1.2rem;
+}
+.nav-Logo{
+  display: flex;
+  align-items: center;
+  margin-top: 0;
+}
+.container{
+  background-color: black;
+  height: 100vh;
+}
+/*Main*/
+h1{
+  color: white;
+}
+header{
+  background-image: url(./components/images/react2.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.Fun > li{
+  list-style-type: disc;
+}
