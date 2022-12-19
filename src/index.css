@@ -14,7 +14,7 @@ code {
 }
 /*Header*/
 h4{
-  color: rgb(0, 177, 247);
+  color: #61DAFB;
   font-family: 'Inter', sans-serif;
   padding-left: .5rem;
 }
@@ -51,6 +51,8 @@ header{
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+  padding: 57px 27px;
+  letter-spacing: -0.8px;
 }
 .Fun > li{
   list-style-type: disc;
